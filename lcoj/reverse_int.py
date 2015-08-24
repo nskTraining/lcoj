@@ -3,6 +3,12 @@
 
 
 def reverse(self, x):
+    '''
+    Return reversed int or 0 if int become too long while reversed
+    Arguments:
+    x : the int to reverse
+    '''
+
     res = 0
     if x >= 0:
         res = int(str(x)[::-1])
